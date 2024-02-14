@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(computer-screen-6977451_1280.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Protest Strike", sans-serif;
+}
+.main{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: black;
+ }
+ a:hover {
+    text-decoration: underline;
+ }
+ .contener{
+    box-sizing: border-box;
+ }
+.przycisk input{
+    width: 200px;
+    height: 70px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+h1{
+    padding-top: 100px;
+}
+.rejestracja{
+    padding-top: 200px;
+}
+.top{
+    display:flex;
+    margin-left: 350px;
+}
+.topWrapper {
+    margin-top: -27px;
+}
+.topWrapper2 {
+    margin-left: 750px;
+}
+.bottom {
+    display: flex;
+    width: 60%;
+    margin-left: 400px;
+}
+.bottomLeft {
+    margin-top: 80px;
+}
+.bottomRight {
+    height: 500px;;
+    display: flex;
+    flex-direction:column;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.bottomRight__Wrapper {
+    overflow-y: scroll;
+    
+}
