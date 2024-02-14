@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 14, 2024 at 10:24 PM
+-- Generation Time: Feb 14, 2024 at 10:27 PM
 -- Wersja serwera: 10.4.28-MariaDB
 -- Wersja PHP: 8.2.4
 
@@ -33,14 +33,6 @@ CREATE TABLE `komentarze` (
   `tresc` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `komentarze`
---
-
-INSERT INTO `komentarze` (`id`, `login`, `tresc`) VALUES
-(3, 'Kanye West', 'Im good at ping pong'),
-(6, 'kanyelover911', 'I miss the old kanye...');
-
 -- --------------------------------------------------------
 
 --
@@ -59,8 +51,7 @@ CREATE TABLE `rejestracja` (
 --
 
 INSERT INTO `rejestracja` (`id`, `login`, `haslo`, `Komentarze`) VALUES
-(1, 'artwoj', '951963987', ''),
-(25, 'kanyelover911', '123', '');
+(1, 'artwoj', '951963987', '');
 
 -- --------------------------------------------------------
 
@@ -80,8 +71,7 @@ CREATE TABLE `uczen` (
 --
 
 INSERT INTO `uczen` (`id`, `imie`, `nazwisko`, `comments`) VALUES
-(1, 'Artur', 'Wojciech', ''),
-(30, 'Kanye', 'West', '');
+(1, 'Artur', 'Wojciech', '');
 
 --
 -- Indeksy dla zrzutów tabel
